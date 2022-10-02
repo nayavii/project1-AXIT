@@ -68,13 +68,6 @@ body {
   font-style: normal;
 }
 
-.about__card__img_center {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  
-}
-
 /* price section */
 
 .price {
@@ -185,18 +178,18 @@ body {
   
 }
 
-.opinion__author__img {
+.opinion__item__author img {
   margin-right: 30px;
 }
 
-.about-person__name {
+.opinion__item__author p {
 font-family: 'Open Sans';
 font-weight: 700;
 font-size: 24px;
 margin: 18px 0;
 }
 
-.about-person__prof {
+.opinion__item__author span {
   font-size: 18px;
 }
 
