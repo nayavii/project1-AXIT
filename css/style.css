@@ -1,0 +1,205 @@
+body {
+  font-family: 'Raleway';
+  font-weight: 400;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+}
+
+.header {
+  font-style: normal;
+}
+
+.header h2 {
+  font-size: 36px;
+  text-align: center;
+  align-items: center;
+  margin: 57px 0;
+}
+
+
+.header__separator {
+  border-bottom: 1px solid #EC7979;
+  width: 170px;
+  margin: 0px auto 40px;
+}
+
+.header p {
+  text-align: center;
+  color: #86878B;
+  margin-bottom: 71px;
+  font-size: 18px;
+}
+
+/* about section */
+
+.about__cards {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  margin-bottom: 58px;
+}
+
+.about__card {
+  height: 383px;
+  width: 370px;
+  text-align: center;
+}  
+
+.about__card h4 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 34px 0;
+}
+
+.about__card p {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  font-style: normal;
+}
+
+.about__card__img_center {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  
+}
+
+/* price section */
+
+.price {
+  background-color: #F5F5F5;
+  display: flex;
+}
+
+.price__header {
+  margin-top: 107px;
+}
+
+.price__cards {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.price__item {
+  width: 370px;
+  text-align: center;
+}
+
+.price__item_up {
+  margin-top: -20px;
+  filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+}
+
+.price__item__title, .price__item__value, .price__item__free-for {
+  background-color: #333333;
+  border-bottom: 2px solid #F5F5F5;
+  display: flex;
+  align-items: center;
+}
+
+.price__item__title {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 24px;
+  height: 60px;
+}
+
+.price__item__value {
+  font-weight: 700;
+  font-size: 36px;
+  height: 100px;
+}
+
+.price__item__title p, .price__item__value p  {
+  color: #FFFFFF;
+  margin: auto;
+}
+
+.price__item__free-for {
+  font-size: 18px;
+  height: 50px;
+}
+
+.price__item__free-for p {
+  color: rgba(255, 255, 255, 0.5);
+  margin: auto;
+}
+
+.price__item li {
+  font-size: 18px;
+  background-color: #FFFFFF;
+  border-bottom: 2px solid #F5F5F5;
+  padding: 15px 0 14px 0;
+  
+}
+
+/* opinion section */
+
+.opinion {
+  padding: 53px 0 64px 0;
+}
+
+.opinion__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.opinion__item__body {
+  text-align: center;
+  width: 370px;
+  margin-bottom: 46px;
+  
+}
+.opinion__item__body p {
+  font-size: 18px;
+  color: #86878B;
+  
+  height: 180px;
+  background-color: #E2E2E2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 0 25px;
+}
+
+.opinion__item__body img {
+  display: flex;
+  margin-left: 29px;
+}
+
+.opinion__item__author {
+  display: flex;
+  
+}
+
+.opinion__author__img {
+  margin-right: 30px;
+}
+
+.about-person__name {
+font-family: 'Open Sans';
+font-weight: 700;
+font-size: 24px;
+margin: 18px 0;
+}
+
+.about-person__prof {
+  font-size: 18px;
+}
+
+
+
+
