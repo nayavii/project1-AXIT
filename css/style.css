@@ -154,12 +154,12 @@ body {
   text-align: center;
   width: 370px;
   margin-bottom: 46px;
+  position: relative;
   
 }
 .opinion__item__body p {
   font-size: 18px;
   color: #86878B;
-  
   height: 180px;
   background-color: #E2E2E2;
   border-radius: 10px;
@@ -168,9 +168,16 @@ body {
   padding: 0 25px;
 }
 
-.opinion__item__body img {
+/* .opinion__item__body img {
   display: flex;
   margin-left: 29px;
+} */
+
+.opinion__item__body::after {
+  content: " ";
+  position: absolute;
+  border: 15px solid transparent; border-top: 20px solid #E2E2E2;
+  left: 70px;
 }
 
 .opinion__item__author {
