@@ -9,11 +9,11 @@ body {
   margin: auto;
 }
 
-.header__title {
+.header-title {
   font-style: normal;
 }
 
-.header_title h2 {
+.header-title h2 {
   font-size: 36px;
   text-align: center;
   align-items: center;
@@ -27,7 +27,7 @@ body {
   margin: 0px auto 40px;
 }
 
-.header_title p {
+.header-title p {
   text-align: center;
   color: #86878B;
   margin-bottom: 71px;
@@ -46,6 +46,17 @@ body {
   color: #fff;
   padding: 20px 91px;
 
+}
+
+.btn_white a:hover {
+  color: #EC7979;
+  border-color: #EC7979;
+}
+
+.btn_white a:active {
+  border-color: #AB4949;
+  background-color: #AB4949;
+  color: #fff;
 }
 
 .btn_white-long a {
@@ -80,6 +91,15 @@ body {
   text-align: center;
   padding: 30px 0;
 }
+
+.header__menu a:hover {
+  background-color: #EC7979;
+}
+
+.header__menu a:active {
+  background-color: #AB4949;
+}
+
 
 /* main */
 
@@ -301,10 +321,6 @@ h1 {
   padding: 0 25px;
 }
 
-/* .opinion__item__body img {
-  display: flex;
-  margin-left: 29px;
-} */
 
 .opinion__item__body::after {
   content: " ";
@@ -320,6 +336,10 @@ h1 {
 
 .opinion__item__author img {
   margin-right: 30px;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  object-fit: cover;
 }
 
 .opinion__item__author p {
