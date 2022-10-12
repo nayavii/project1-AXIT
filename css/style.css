@@ -51,6 +51,7 @@ body {
 .btn_white a:hover {
   color: #EC7979;
   border-color: #EC7979;
+  transition: all .5s ease;
 }
 
 .btn_white a:active {
@@ -61,6 +62,53 @@ body {
 
 .btn_white-long a {
   padding: 20px 140px;
+}
+
+.form fieldset {
+  width: 470px;
+  
+}
+
+.form input[type="text"], 
+.form input[type="email"], 
+.form input[type="password"],
+.form textarea {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 19px;
+  border: none;
+  border-bottom: 1px solid #BDBDBD;
+  padding-bottom: 15px;
+  outline: none;
+}
+
+.form input[type="text"]::placeholder, 
+.form input[type="email"]::placeholder, 
+.form input[type="password"]::placeholder,
+.form textarea::placeholder {
+  color: #BDBDBD;
+}
+
+.form button {
+  display: block;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  background: #EC7979;
+  border: none;
+  color: #fff;
+
+}
+
+.form button:hover {
+  background: #AB4949;
+  transition: all .5s ease;
+}
+
+.form button:active {
+  background: #EC7979;
+  box-shadow: inset 0px 0px 10px #AB4949;
 }
 
 /* header */
@@ -94,6 +142,7 @@ body {
 
 .header__menu a:hover {
   background-color: #EC7979;
+  transition: all .5s ease;
 }
 
 .header__menu a:active {
@@ -137,14 +186,46 @@ h1 {
   color: #FFFFFF;
 }
 
-
-
-
-/* .main__form {
-  width: 470px;
-  height: 450px;
+.main__form {
   background-color: #fff;
-} */
+  padding-top: 33px;
+  border-radius: 10px;
+ 
+}
+
+.main__form legend {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  margin-bottom: 82px;
+}
+
+.main__form fieldset {
+  width: 470px;
+  text-align: center;
+}
+
+.main__form legend span {
+  color: #EC7979;
+}
+
+.main__form input[type="text"], 
+.main__form input[type="email"], 
+.main__form input[type="password"] {
+  width: 370px;
+  margin-bottom: 35px;
+  
+}
+
+.main__form button {
+  width: 100%;
+  padding: 22px 0;
+  margin-top: 75px;
+  border-radius: 0px 0px 10px 10px;
+
+}
 
 /* social media section  */
 
@@ -247,6 +328,7 @@ h1 {
 .price__item:hover {
   margin-top: -20px;
   filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+  transition: all .5s ease;
 }
 
 .price__item__title, .price__item__value, .price__item__free-for {
@@ -376,6 +458,53 @@ margin: 18px 0;
 .banner .btn_white-long  {
   text-align: center;
 }
+
+/* section contatc */
+
+.contact {
+  padding: 50px 0;
+}
+
+.contact__form {
+ 
+}
+
+.contact__form__inf {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  
+}
+
+
+
+.contact__form input[type="text"], 
+.contact__form input[type="email"], 
+.contact__form input[type="password"] {
+  width: 571px;
+  margin-bottom: 50px;
+  
+}
+
+.contact__form input[type="text"]::placeholder {
+  color: #BDBDBD;
+
+}
+
+.contact__form textarea {
+  width: 569px;
+  overflow: hidden;
+  resize: none;
+  
+}
+
+.contact__form button {
+  padding: 20px 0;
+  width: 370px;
+  margin: auto;
+}
+
+
 
 /* footer */
 
