@@ -16,7 +16,6 @@ body {
   align-items: center;
 }
 
-
 .header__separator {
   border-bottom: 1px solid #EC7979;
   width: 170px;
@@ -144,7 +143,6 @@ body {
   text-transform: uppercase;
 }
 
-
 /* main */
 
 .main {
@@ -191,6 +189,8 @@ h1 {
   border-radius: 10px;
   width: 470px;
   text-align: center;
+  height: 450px;
+  box-sizing: border-box;
 }
 
 .main__form legend {
@@ -272,10 +272,6 @@ label input {
   display: none;
 }
 
-/* .tabs__radio{
-  display:none;
-} */
-
 label{
   font-family: 'Open Sans';
   font-size: 14px;
@@ -291,6 +287,9 @@ label{
   width: 100%;
   display: none;
   border: 1px #C6CBCD solid;
+  position: relative;
+  padding: 47px 0 50px 100px;
+  z-index: -1;
 }
 
 label:has(input[type="radio"]:checked){
@@ -301,6 +300,7 @@ label:has(input[type="radio"]:checked){
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   position: relative; 
+  
 }
 
 label:has(input[type="radio"]:checked) + .tabs__content{
@@ -315,29 +315,29 @@ label:has(input[type="radio"]:checked):after{
   left: 0;
   bottom: -1px;
   position: absolute;
+  z-index: 2;
 }
 
-.tabs__content__wrapper {
-  display: flex;
-  padding-left: 100px;
-  justify-content: space-between;
+.tabs__content img {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
-.tabs__content__wrapper div {
+.tabs__content div {
   width: 570px;
 }
 
-.tabs__content__wrapper h3 {
+.tabs__content h3 {
   font-family: 'Open Sans';
   font-weight: 700;
   font-size: 30px;
-  padding: 47px 0;
 }
 
-.tabs__content__wrapper p {
+.tabs__content p {
   font-size: 18px;
   line-height: 21px;
-  margin: 27px 0;
+  margin: 76px 0 27px;
   width: 570px;
 }
 
@@ -458,7 +458,6 @@ label:has(input[type="radio"]:checked):after{
   display: flex;
   justify-content: space-between;
   gap: 30px;
-  
 }
 
 .opinion__item__body {
@@ -498,10 +497,10 @@ label:has(input[type="radio"]:checked):after{
 }
 
 .opinion__item__author p {
-font-family: 'Open Sans';
-font-weight: 700;
-font-size: 24px;
-margin: 18px 0;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 24px;
+  margin: 18px 0;
 }
 
 .opinion__item__author span {
@@ -540,7 +539,6 @@ margin: 18px 0;
   display: flex;
   justify-content: space-between;
   margin-bottom: 50px;
-  
 }
 
 .contact__form input[type="text"], 
