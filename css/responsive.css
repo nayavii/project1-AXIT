@@ -1,0 +1,802 @@
+@media  screen and (max-width:1200px) {
+  .container {
+    width: 992px;
+  }
+
+  .header-title h2 {
+    font-size: 24px;
+  }
+
+  .header__separator {
+    width: 142px;
+    margin: 52px auto 32px;
+  }
+
+  .header-title p {
+    margin-bottom: 32px;
+    font-size: 14px;
+  }
+
+  .btn_white {
+    padding: 16px 47px;
+  }
+
+  .btn_white-long {
+    padding: 20px 114px;
+  }
+
+  .form input[type="text"], 
+  .form input[type="email"], 
+  .form input[type="password"],
+  .form textarea {
+    padding-bottom: 18px;
+  }
+
+  /* header */
+
+  .header__menu a {
+    width: 113px;
+    font-size: 14px;
+    padding: 31px 0;
+  }
+
+  .header__container img {
+    height: 31px;
+    margin-left: 98px;
+  }
+
+  /* main */
+
+  .main {
+    padding: 137px 0 106px;
+  }
+
+  .main__offer{
+    margin-top: 17px;
+    margin-left: 98px;
+  }
+
+  .main__offer img {
+    width: 115px;
+  }
+
+  h1 {
+    font-size: 36px;
+    line-height: 42px;
+    margin: 54px 0 41px;
+    width: 454px;
+  }
+
+  .header__separator_white {
+    display: inline-block;
+    margin: 0;
+    width: 115px;
+  }
+
+  .main__offer p {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 31px 0px;
+  }
+
+  .main__form {
+    padding-top: 39px;
+    width: 398px;
+    height: 450px;
+  }
+
+  .main__form legend {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 82px;
+  }
+
+  .main__form input[type="text"], 
+  .main__form input[type="email"], 
+  .main__form input[type="password"] {
+    width: 298px;
+    margin-bottom: 33px;
+  }
+
+  .main__form button {
+    width: 100%;
+    padding: 24px 0;
+  }
+
+  /* social media section  */
+
+  .social-media {
+    padding: 17px 0 16px;
+  }
+
+  .social-media__inf h4 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 28px;
+  }
+
+  .social-media__inf p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .social-media__icons {
+    gap: 20px;
+  }
+
+  .social-media__icons a img{
+    width: 64px;
+    height: 64px;
+  }
+
+  /* features section */
+
+  .tabs {
+    padding: 50px 0;
+  }
+
+  label{
+    font-size: 14px;
+    line-height: 19px;
+    padding:10px 67px;
+  }
+
+  .tabs__content{
+    padding: 28px 0 50px 85px;
+  }
+
+  label:has(input[type="radio"]:checked):after{
+    width: 172px;
+  }
+
+  .tabs__content div {
+    width: 483px;
+  }
+
+  .tabs__content h3 {
+    font-size: 24px;
+    line-height: 33px;
+  }
+
+  .tabs__content p {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 66px 0 38px;
+    width: 100%;
+  }
+
+  .tabs__content img {
+    height: 385px;
+    width: 398px;
+  }
+
+  .tabs__btn {
+    padding: 16.5px 73px;
+  }
+
+
+  /* about section */
+
+  .about {
+    padding: 46px 0 60px;
+  }
+
+  .about__cards {
+    gap: 20px;
+  }
+
+  .about__card {
+    height: 318px;
+    width: 317px;
+  }
+
+  .about__card img {
+    width: 147px;
+  }
+  
+  .about__card h4 {
+    font-size: 18px;
+    line-height: 25px;
+    margin: 28px 0 46px;
+  }
+
+  .about__card p {
+    font-size: 14px;
+    line-height: 16px;
+    width: 318px;
+    padding: 0;
+  }
+
+  /* price section */
+
+  .price {
+    padding: 96px 0 50px;
+  }
+
+  .price__cards {
+    gap: 20px;
+  }
+
+  .price__item {
+    width: 317px;
+  }
+
+  .price__item:hover {
+    margin-top: -18px;
+  }
+
+  .price__item__title {
+    font-size: 24px;
+    height: 53px;
+  }
+
+  .price__item__value {
+    height: 89px;
+  }
+
+  .price__item__free-for {
+    height: 44px;
+  }
+
+  .price__item li {
+    padding: 12px 0;
+  }
+
+  /* opinion section */
+
+  .opinion {
+    padding: 96px 0 57px;
+  }
+
+  .opinion__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .opinion__item__body {
+    width: 317px;
+    font-size: 14px;
+    height: 180px;
+    padding: 0 33px;
+  }
+
+  .opinion__item__author img {
+    margin-right: 23px;
+    width: 63px;
+    height: 63px;
+  }
+
+  .opinion__item__author p {
+    font-size: 18px;
+    margin: 9px 0 18px;
+  }
+
+  .opinion__item__author span {
+    font-size: 14px;
+  }
+
+  /* banner section */
+
+  .banner {
+    padding: 96px 0 50px;
+  }
+
+  .banner__header .header__separator_white {
+    margin: 0
+  }
+
+  .banner__header p {
+    margin: 32px 0;
+    color: #fff;
+  }
+
+  /* section contact */
+
+  .contact {
+    padding: 96px 0 50px;
+  }
+
+  .contact__form input[type="text"], 
+  .contact__form input[type="email"], 
+  .contact__form input[type="password"] {
+    width: 486px;
+    margin-bottom: 47px; 
+  }
+
+  .contact__form textarea {
+    width: 486px;
+  }
+
+  .contact__form button {
+    padding: 19px 0;
+    width: 318px;
+  }
+
+  /* footer */
+
+  .footer {
+    padding: 35px 0 30px;
+  }
+
+  .footer__icons {
+    gap: 27px;
+    margin-bottom: 38px;
+  }
+
+  .footer__icons a img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .footer p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+
+  @media  screen and (max-width:576px) {
+    .container {
+      width: 100%;
+      margin-right: 0;
+    }
+
+    .header-title h2 {
+      font-size: 24px;
+      line-height: 28px;
+    }
+
+    .header__separator {
+      width: 134px;
+      margin: 49px auto 25px;
+    }
+
+    .header-title p {
+      margin-bottom: 0;
+      font-size: 14px;
+      width: 245px;
+      margin: 0 auto;
+    }
+
+    .btn_white, .btn_white-long {
+      width: 90%;
+      padding: 20px 0;
+    }
+
+
+    /* header */
+
+    .header {
+      padding: 16px 0;
+    }
+
+    .header__container {
+      margin: 0;
+      padding: 0 35px 0 20px;
+    }
+
+    .header__container img {
+      margin-left: 0px;
+      height: 22px;
+    }
+
+    .burger-menu {
+      display: inherit;
+
+    }
+
+    .burger-menu img {
+      height: 18px;
+      width: 24px;
+      margin-right: 35px;
+
+    }
+
+    .header__menu {
+      display: none;
+    }
+
+    /* main */
+
+    .main {
+      padding: 84px 0 50px;
+    }
+
+    .main__container {
+      display: block;
+      text-align: center;
+      margin: auto;
+    }
+
+    .main__offer{
+      margin: 0;
+    }
+
+    .main__offer img {
+      display: none;
+    }
+
+    h1 {
+      font-size: 36px;
+      line-height: 42px;
+      margin: 0px 0 43px;
+      width: 288px;
+    }
+
+    .header__separator_white {
+      margin: 0 auto;
+    }
+
+    .main__offer p {
+      font-size: 14px;
+      line-height: 16px;
+      margin: 42px auto;
+    }
+
+    .main__offer p br {
+      display: none;
+    }
+
+    .main__form {
+      margin-top: 56px;
+      padding-top: 35px;
+      width: 288px;
+      height: auto;
+    }
+
+    .main__form legend {
+      font-size: 14px;
+      line-height: 19px;
+      margin-bottom: 35px;
+    }
+
+    .main__form input[type="text"], 
+    .main__form input[type="email"], 
+    .main__form input[type="password"] {
+      width: 240px;
+      margin-bottom: 33px;
+    }
+
+    .main__form button {
+      padding: 20px 0;
+      margin-top: 18px;
+    }
+
+    /* social media section  */
+
+    .social-media {
+      padding: 41px 0 44px;
+    }
+
+    .social-media__container {
+      display: block;
+      text-align: center;
+    }
+
+    .social-media__inf h4 {
+      font-size: 18px;
+      line-height: 25px;
+      margin-bottom: 23px;
+    }
+
+    .social-media__inf p {
+      font-size: 14px;
+      line-height: 16px;
+      margin-bottom: 32px;
+    }
+
+    .social-media__icons {
+      display: flex;
+      align-items: center;
+      gap: 17px;
+    }
+
+    .social-media__icons a img{
+      width: 26px;
+      height: 26px;
+    }
+
+    /* features section */
+
+    .tabs {
+      padding: 41px 0 0px;
+      display: flex;
+      flex-wrap: wrap ;
+    }
+
+    .tabs__content{
+      padding: 37px 24px 30px;
+    }
+
+    .tabs__content img {
+      display: none;
+    }
+
+    label{
+      padding:10px 32px;
+    }
+
+    label:has(input[type="radio"]:checked):after{
+      width: 102px;
+    }
+
+    .tabs__content div {
+      width: 100%;
+      text-align: center;
+    }
+
+    .tabs__content h3 {
+      font-size: 18px;
+      line-height: 24px;
+      width: 183px;
+      margin: auto;
+    }
+
+    .tabs__content p {
+      font-size: 13px;
+      line-height: 15px;
+      margin: 66px 0 29px;
+    }
+
+    .tabs__btn {
+      padding: 12.5px 77px;
+    }
+
+    /* about section */
+
+    .about {
+      padding: 49px 0 60px;
+    }
+
+    .about__cards {
+     display: block;
+     margin-top: 50px;
+    }
+
+    .about__card:not(:last-child) {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .about__card h4 {
+      font-size: 18px;
+      line-height: 25px;
+      margin: 28px 0 37px;
+    }
+
+    .about__card p {
+      font-size: 14px;
+      line-height: 16px;
+      width: 100%;
+      padding: 0 14px;
+    }
+
+
+    /* price section */
+
+    .price {
+      padding: 49px 0 26px;
+    }
+
+    .price__cards {
+      display: block;
+      margin-top: 24px;
+    }
+
+    .price__item {
+      width: 288px;
+    }
+
+    .price__item:not(:last-child) {
+      margin-bottom: 27px;
+    }
+
+    .price__item:hover {
+      margin-top: 0px;
+    }
+
+    .price__item__title {
+      font-size: 18px;
+      height: 47px;
+    }
+
+    .price__item__value {
+      font-size: 24px;
+      height: 78px;
+    }
+
+    .price__item__free-for {
+      font-size: 14px;
+      height: 39px;
+    }
+
+    .price__item li {
+      font-size: 14px;
+      padding: 11px 0 12px 0;
+    }
+
+    /* opinion section */
+
+    .opinion {
+      padding: 49px 0 32px;
+    }
+
+    .opinion .header-title h2 {
+      width: 220px;
+      margin: 0  auto;
+    }
+
+    .opinion__cards {
+      display: inherit;
+    }
+
+    .opinion__item:not(:nth-of-type(2)) {
+      display: none;
+
+    }
+
+    .opinion__item__body {
+      width: 288px;
+      margin-bottom: 62px;
+      font-size: 14px;
+      padding: 0 18px;
+      margin-top: 27px;
+    }
+
+    .opinion__item__body::after {
+      left: 46px;
+      bottom: -35px;
+    }
+
+    .opinion__item__author img {
+      margin-right: 22px;
+      width: 57px;
+      height: 57px;
+    }
+
+    .opinion__item__author p {
+      font-size: 14px;
+      margin: 12px 0 21px;
+    }
+
+    .opinion__item__author span {
+      font-size: 13px;
+    }
+
+
+
+    /* banner section */
+
+    .banner {
+      padding: 48px 0 58px;
+    }
+
+    .banner__header .header__separator_white {
+      margin: 48px auto 16px;
+    }
+
+    .banner__header p {
+      width: 288px;
+      margin: 0 0 66px;
+    }
+
+    
+
+    /* section contact */
+
+    .contact {
+      padding: 48px 0 40px;
+    }
+
+    .contact__form__inf {
+      display: block;
+      margin: 64px 0 0;
+    }
+
+    .contact__form input[type="text"], 
+    .contact__form input[type="email"], 
+    .contact__form input[type="password"] {
+      width: 100%;
+      margin-bottom: 50px; 
+    }
+
+    .contact__form textarea {
+      width: 100%;
+      overflow: hidden;
+      resize: none;
+    }
+
+    .contact__form button {
+      width: 100%;
+      margin-top: 50px;
+    }
+
+    /* footer */
+
+    .footer {
+      padding: 35px 0 45px;
+    }
+
+    .footer__icons {
+      gap: 17px;
+      margin-bottom: 42px;
+    }
+
+    .footer__icons a img {
+      width: 26px;
+      height: 26px;
+    }
+
+    .footer p {
+      font-size: 14px;
+      line-height: 16px;
+    }
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+}
+
+
+   
+    
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
